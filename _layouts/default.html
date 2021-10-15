@@ -1,0 +1,10 @@
+{% assign current = page.url | downcase | split: '/' %} {% assign statusClass = 'disabled' %} {% assign proposalClass = 'disabled' %} {% assign finalClass = 'disabled' %} {% for page in site.html_pages %} {% if page.url == '/proposal.html' %} {% assign proposalClass = '' %} {% endif %} {% if page.url == '/status.html' %} {% assign statusClass = '' %} {% endif %} {% if page.url == '/final.html' %} {% assign finalClass = '' %} {% endif %} {% endfor %}
+Toggle navigation {{ site.title }} 
+	•	Home
+	•	Proposal
+	•	Status
+	•	Final
+	•	Team Details
+{{ site.title }} {{ site.subtitle }} 
+{{ content }} 
+Website created as part of the CS 175: Project in AI, Spring 2019 course.
