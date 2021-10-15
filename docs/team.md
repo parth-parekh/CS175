@@ -6,11 +6,11 @@ title:  Team
 # {{ page.title }}
 
 
-## USER 1
-***UCI Net ID***: ucinetid1
+## Vinayak Nadig
+***UCI Net ID***: vnadig@uci.edu
 
-## USER 2
-***UCI Net ID***: ucinetid2
+## Parth Parekh
+***UCI Net ID***: phparekh@uci.edu
 
-## USER 3
-***UCI Net ID***: ucinetid3
+## Gaurav Deshmukh
+***UCI Net ID***: gdeshmuk@uci.edu
