@@ -12,3 +12,6 @@ For our project, we anticipate the usage of reinforcement learning with neural f
 In terms of quantitative evaluation, one metric we will analyze is the number of correct resources gathered to craft inputted item. Another metric that is important is the time taken by the agent to traverse the world and gather all necessary resources. Finally, a third quantitative metric we plan to use is the distance the agent travels.
 
 For the qualitative evaluation, we will use increasingly complex items to benchmark the progress and efficiency of the AI agent. For example, the most basic item would be a crafting table, which requires a small number of resources that are abundantly available, making this relatively easy to craft. It would be very impressive if our agent was able to craft rare and complex items, such as a diamond pickaxe. 
+
+## Appointment
+10/26 at 2:00 PM.
