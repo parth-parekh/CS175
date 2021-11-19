@@ -16,16 +16,12 @@ Within our evaluation process we have two separate layers of evaluation, individ
 The other form of evaluation we are performing is on the general items, where we perform qualitative analysis on the complexity of items we go about collecting. For example, our agent has the ability to acquire wooden items, which is a relatively easy resource to get in Minecraft. We plan on having more complex items such as items made of stone and iron tools, and such we are performing qualitative analysis of how far along this path we make it. So far we can make items requiring wood as a base item, and as we develop the AI to acquire more complex items, we will be able to track our progress. 
 
 ## Remaining Goals and Challenges
-Our remaining 
-Goals: Allow the agent to interact with the world without restrcitions. The agent should be able to craft tools which requires obtaining rarer resources; wood, stone, iron. Update the mission schema to progressively reward the agent for building tools with rarer resources. 
+Our remaining goals are to allow the agent to interact with the world without restrictions. Currently the agent can only break select blocks and has no ability to decide which blocks it needs. The agent should be able to craft tools which requires obtaining rarer resources; wood, stone, iron. To do this we will update the mission schema to reward the agent accordingly for building tools which require rarer resources. To progress we need to create a mission list and continue experimenting with items of harder difficulty. The algorithm works well for wooden tools, however we do not know how the agent will perform when asked to acquire stone or iron tools.
 
-What we need to do : Create a mission list, continue experimenting with items of harder difficulty, We want the agent to be able to obtain the necessary resoucres to craft wood tools, then stone tools, then iron tools. 
+The current limitations of our prototype are that it can only obtain wooden items, cannot interact with water, and there is no flexible way to assign new missions. The challenges we see ahead are teaching the agent to survive if it falls into water and to see if the agent can find diamonds. Currently we are using a default world while testing with wood tools, however we may create and use custom worlds to ensure the agent is able to complete harder missions.
 
-Limitations of the Prototype: Can only obtain wooden items, cannot interact with water, no flexible way to assign new missions. We want the agent to be able to obtain wood tools, then stone tools, then iron tools. 
-
-Challenges: Implementing image processing to identify items to create.
 
 ## Resources Used
 Project Malmo Documentation at https://microsoft.github.io/malmo/0.30.0/Documentation/classmalmo_1_1_agent_host.html
 Malmo XML Schema Documentation at https://microsoft.github.io/malmo/0.30.0/Schemas/Mission.html.
-
+Learning to Walk in the Real World with Minimal Human Effort https://arxiv.org/pdf/2002.08550.pdf
