@@ -3,7 +3,9 @@ layout: default
 title: Status
 ---
 ## Project Summary
-Our idea for the project is to allow a user input for an item in Minecraft and have the agent traverse the world and collect resources to craft inputted item. In terms of expandability for our project, we can also allow users to make their inputs through images. The goal of our project is to mimic a fully functioning Minecraft player with an object to craft in mind through specific resource gathering.
+Our project, Smartcraft is focused on the application of malmo towards world navigation and resource collection. The goal is to allow a user to input an item for the agent to craft. Once given an object to craft, the agent should traverse the world to find and collect the resources needed to craft the requested item(s). The agent should also be able to obtain the necessary tools to collect resources, such as a wooden pickaxe being needed to collect stone for a stone pickaxe. Ultimately the goal of our project is to mimic a fully functioning Minecraft player with an object to craft in mind through specific resource gathering. Other ideas we have include allowing the user to input the object to craft through an image.
+
+This can be applied to the game in terms of resource and item collection. This also has real world applications, as seen in the use of reinforcement learning in robotics. [Learning to Walk in the Real World with Minimal Human Effort](https://arxiv.org/pdf/2002.08550.pdf)
 ## Video Status
 
 ## Approach
