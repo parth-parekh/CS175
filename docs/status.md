@@ -11,6 +11,7 @@ Our idea for the project is to allow a user input for an item in Minecraft and h
 ## Evaluation
 
 ## Remaining Goals and Challenges
+Our remaining 
 Goals: Allow the agent to interact with the world without restrcitions. The agent should be able to craft tools which requires obtaining rarer resources; wood, stone, iron. Update the mission schema to progressively reward the agent for building tools with rarer resources. 
 
 What we need to do : Create a mission list, continue experimenting with items of harder difficulty, We want the agent to be able to obtain the necessary resoucres to craft wood tools, then stone tools, then iron tools. 
