@@ -22,9 +22,10 @@ In terms of how we are training our agent, we start off exploring a world with m
 
 | Reward | Item collected |
  --------  ---------------
-| +2     | log            |
- --------  ---------------
-| +1     | planks         |
+| +2 | log |
+| +1 | planks |
+| +2 | sticks |
+| +3 | wooden pickaxe |
  --------  ---------------
 
 +2			log
