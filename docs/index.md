@@ -3,7 +3,7 @@ layout: default
 title:  Home
 ---
 
-![smartcraft](https://fontmeme.com/temporary/64dbd420d4402162606222cd55fcb636.png)
+![smartcraft](https://fontmeme.com/permalink/211119/64dbd420d4402162606222cd55fcb636.png)
 <br>
 An AI Project in Minecraft by Gaurav Deshmukh, Parth Parekh, and Vinayak Nadig
 
