@@ -4,7 +4,7 @@ title:  Home
 ---
 
 ![smartcraft](https://fontmeme.com/temporary/64dbd420d4402162606222cd55fcb636.png)
-\n
+<br>
 An AI Project in Minecraft by Gaurav Deshmukh, Parth Parekh, and Vinayak Nadig
 
 
