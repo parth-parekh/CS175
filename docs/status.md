@@ -27,12 +27,6 @@ In terms of how we are training our agent, we start off exploring a world with m
 | +2 | sticks |
 | +3 | wooden pickaxe |
 
-+2			log
-+1			planks
-+2			sticks
-+3			wooden pickaxe
-
-
 We end each mission for this training once a wooden pickaxe has been crafted.
 
 We also want to make sure the agent is collecting all of these resources as fast and efficiently as possible, so we added a negative reward with delta -0.0002 per tick that linearly reduces the reward directly with the time.
