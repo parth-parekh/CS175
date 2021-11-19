@@ -7,6 +7,8 @@ Our project, Smartcraft is focused on the application of malmo towards world nav
 
 This can be applied to the game in terms of resource and item collection. This also has real world applications, as seen in the use of reinforcement learning in robotics. [Learning to Walk in the Real World with Minimal Human Effort](https://arxiv.org/pdf/2002.08550.pdf)
 ## Video Status
+https://youtu.be/S_mCMoOvCno
+
 
 ## Approach
 For our learning algorithm we decided to utilize the rllib library in python and implement proximal policy optimization (PPO). In using PPO, we are using an expected advantage function, which serves to compare previous set of actions’ rewards with a prospective action. This function looks like the following:
