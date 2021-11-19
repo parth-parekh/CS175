@@ -19,10 +19,14 @@ To improve accuracy, we can also provide a threshold on this ratio, so as to not
 
 In terms of how we are training our agent, we start off exploring a world with many trees around it. We want to train the agent to destroy these ‘log’ blocks to collect wood to be able to craft other objects like sticks, planks, and a wooden pickaxe. Our rewards system is as follows:
 
----
-Reward: +2 +1 +2 +3
-Item Collected: log planks sticks wooden pickaxe
----
+
+| Reward | Item collected |
+ --------  ---------------
+| +2     | log            |
+ --------  ---------------
+| +1     | planks         |
+ --------  ---------------
+
 +2			log
 +1			planks
 +2			sticks
