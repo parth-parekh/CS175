@@ -3,7 +3,7 @@ layout: default
 title: Final Report
 ---
 ## Video
-https://youtu.be/4k3JjZw8RMY
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4k3JjZw8RMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Project Summary
 Our project, Smartcraft places the agent into a default world where it will learn to gather resources to craft items. The goal of the project is to teach the agent to collect the various resources needed to craft a target item. At any point, the agent can turn left or right, jump, move, and break the block in its line of sight. Once the agent is given an object to craft, the agent traverses the world to collect the resources needed to craft the item. Ultimately our goal was to create an AI which could gather resources and create a desired item in a default world. For our learning algorithm we decided to utilize the rllib library in python and implement proximal policy optimization. We used PPO to ensure the agent would be trained efficiently; gather resources in with less time and fewer steps.
