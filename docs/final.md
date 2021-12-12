@@ -49,3 +49,7 @@ This graph shows the agent learning to build the stone pickaxe in the default wo
 
 The other form of evaluation we are performing is on the general items, where we perform qualitative analysis on the complexity of items we go about collecting. For example, our agent has the ability to acquire wooden items, which is a relatively easy resource to get in Minecraft. This is one step towards collecting difficult to acquire resources such as stone and iron. Even if the agent is unsuccessful in acquiring the final item, it will be rewarded for taking intermediate steps towards the completion of its goal.
 ## References
+Project Malmo Documentation at https://microsoft.github.io/malmo/0.30.0/Documentation/classmalmo_1_1_agent_host.html<br>
+Malmo XML Schema Documentation at https://microsoft.github.io/malmo/0.30.0/Schemas/Mission.html.<br>
+Learning to Walk in the Real World with Minimal Human Effort https://arxiv.org/pdf/2002.08550.pdf<br>
+Proximal Policy Optimization https://spinningup.openai.com/en/latest/algorithms/ppo.html#proximal-policy-optimization<br>
