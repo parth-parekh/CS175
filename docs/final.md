@@ -22,7 +22,23 @@ Our PPO psuedocode looks like this following:
 
 The PPO structure limits a lot of randomness that are involved in other machine learning algorithms, and for our purposes we wanted a stable learning algorithm. This is especially applicable to when we try to craft more complicated items that require chaining many actions together.  
 
+Our reward system looks like the following table (explanation in evaluation):
+| Reward | Item collected |
+| -------- | ------------- |
+| +1 | log |
+| +1 | planks |
+| +2 | sticks |
+| +5 | wooden pickaxe |
+| +3 | stone |
+| -5 | drowning in water |
+
 ## Evaluation
-Our evaluation process consists of two separate layers of evaluation; individual item evaluation and general item evaluation. Local item evaluation references evaluation we perform when the agent is looking for the resources to craft the specified item. In the runs, the agent needs to craft wooden tools in order to craft more complex items. We evaluate the items based on success and time. Quantitively, we reward the agent for each resource collected and intermediate items which need to be crafted. Because we wanted to reduce the amount of time the agent would take to gather resources and craft the item, we provide a negative time reward. Thus, for each tick the agent spends looking for the resources to craft the item, it is losing reward. Our team tested many delta values for the time reward because the value needed to be right to ensure the agent would prioritize accomplishing the task. Too large and the agent would die or end the mission faster and high enough so that the agent efficiently completes its task. The data for this individual item evaluation is highly quantitive. 
+Our evaluation process consists of two separate layers of evaluation; individual item evaluation and general item evaluation. Local item evaluation references evaluation we perform when the agent is looking for the resources to craft the specified item. In the runs, the agent needs to craft wooden tools in order to craft more complex items. We evaluate the items based on success and time. Quantitively, as listed above in the table, we reward the agent for each resource collected and intermediate items which need to be crafted. Because we wanted to reduce the amount of time the agent would take to gather resources and craft the item, we provide a negative time reward. Thus, for each tick the agent spends looking for the resources to craft the item, it is losing reward. Our team tested many delta values for the time reward because the value needed to be right to ensure the agent would prioritize accomplishing the task. Too large and the agent would die or end the mission faster and high enough so that the agent efficiently completes its task. The data for this individual item evaluation is highly quantitive.  
+
+This graph shows the agent learning to just build a wooden pickaxe in the default world:
+
+
+This graph shows the agent learning to build the stone pickaxe in the default world:
+
 The other form of evaluation we are performing is on the general items, where we perform qualitative analysis on the complexity of items we go about collecting. For example, our agent has the ability to acquire wooden items, which is a relatively easy resource to get in Minecraft. This is one step towards collecting difficult to acquire resources such as stone and iron. Even if the agent is unsuccessful in acquiring the final item, it will be rewarded for taking intermediate steps towards the completion of its goal.
 ## References
