@@ -32,7 +32,7 @@ Our reward system looks like the following table (explanation in evaluation):
 | +5 | wooden pickaxe |
 | +3 | stone |
 | -5 | drowning in water |
-
+<br>
 For the next phase of our project, in order to begin crafting more complex items, we began implementing functionality for the agent to switch modes once it has crafted a wooden pickaxe. Our program is still able to create other wooden tools, but obtaining the wooden pickaxe reliably was necessary in order for our agent to be able to learn how to craft more complex items. After our progress, the agent was able to detect that it had a wooden pickaxe, equip and begin facing downwards. Once this transition has been made the agent will use the same continous commands as before to learn how to dig down and acquire stone. The code also adjusts to include new possible breaks as the agent switches over to mining. We also implemented functionality to make sure that once the agent reaches a certain depth he stops facing downwards, tilts back up and goes about continous actions again in attempt to learn mining at that level.
 
 ## Evaluation
