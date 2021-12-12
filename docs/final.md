@@ -40,13 +40,13 @@ Our evaluation process consists of two separate layers of evaluation; individual
 
 
 This graph shows the agent learning to build a wooden pickaxe, but before we implemented the negative reward for entering water. This was also a preliminary delta value for time, as after running this, we realized our delta value for the time was outweighing our positive rewards for items collected.  
-![image](https://github.com/parth-parekh/smartcraft/blob/main/docs/woodenpickaxe.png)
+![image](https://user-images.githubusercontent.com/24373705/145700114-955b1ba5-a900-47d1-8184-b222fed5e2f5.png)
 
 This graph shows the agent learning to just build a wooden pickaxe in the default world:  
-![image](https://github.com/parth-parekh/smartcraft/blob/main/docs/woodenpickaxe_no_water.png)
+![image](https://user-images.githubusercontent.com/24373705/145700120-3868312d-5508-498e-8a29-c2f51179a915.png)
 
 This graph shows the agent learning to build the stone pickaxe in the default world:  
-![image](https://github.com/parth-parekh/smartcraft/blob/main/docs/StonePickaxe.png)
+![image](https://user-images.githubusercontent.com/24373705/145700122-2bb3a07d-edaa-401e-9eb5-340c0deb1246.png)
 
 
 The other form of evaluation we are performing is on the general items, where we perform qualitative analysis on the complexity of items we go about collecting. For example, our agent has the ability to acquire wooden items, which is a relatively easy resource to get in Minecraft. This is one step towards collecting difficult to acquire resources such as stone and iron. Even if the agent is unsuccessful in acquiring the final item, it will be rewarded for taking intermediate steps towards the completion of its goal.
