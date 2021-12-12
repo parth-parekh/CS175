@@ -46,6 +46,7 @@ This graph shows the agent learning to just build a wooden pickaxe in the defaul
 
 
 This graph shows the agent learning to build the stone pickaxe in the default world:
+![image](https://github.com/parth-parekh/smartcraft/blob/main/docs/StonePickaxe.png)
 
 The other form of evaluation we are performing is on the general items, where we perform qualitative analysis on the complexity of items we go about collecting. For example, our agent has the ability to acquire wooden items, which is a relatively easy resource to get in Minecraft. This is one step towards collecting difficult to acquire resources such as stone and iron. Even if the agent is unsuccessful in acquiring the final item, it will be rewarded for taking intermediate steps towards the completion of its goal.
 ## References
