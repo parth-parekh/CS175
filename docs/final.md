@@ -16,6 +16,7 @@ Our main goal was to make our agent collect wood, in order to have him craft mor
 By using information from previous runs, we are able to train the agent to perform smarter and smarter actions each run. One problem we ran into at first was adjusting to the time requried for the agent to actually break wood. The reward system was not reacting accurately to some thing we saw on the screen, so we had to change the amount of time the agent must pause after beginning an attack command.
 
 Our PPO psuedocode looks like this following:
+<br>
 
 ![image](https://user-images.githubusercontent.com/47614025/145696738-76bea018-7307-463d-9417-02f28fbe3552.png)
 [Source](https://spinningup.openai.com/en/latest/algorithms/ppo.html#proximal-policy-optimization)
