@@ -36,6 +36,10 @@ Our reward system looks like the following table (explanation in evaluation):
 ## Evaluation
 Our evaluation process consists of two separate layers of evaluation; individual item evaluation and general item evaluation. Local item evaluation references evaluation we perform when the agent is looking for the resources to craft the specified item. In the runs, the agent needs to craft wooden tools in order to craft more complex items. We evaluate the items based on success and time. Quantitively, as listed above in the table, we reward the agent for each resource collected and intermediate items which need to be crafted. Because we wanted to reduce the amount of time the agent would take to gather resources and craft the item, we provide a negative time reward. Thus, for each tick the agent spends looking for the resources to craft the item, it is losing reward. Our team tested many delta values for the time reward because the value needed to be right to ensure the agent would prioritize accomplishing the task. Too large and the agent would die or end the mission faster and high enough so that the agent efficiently completes its task. The data for this individual item evaluation is highly quantitive.  
 
+
+This graph shows the agent learning to build a wooden pickaxe, but before we implemented the negative reward for entering water. This was also a preliminary delta value for time, as after running this, we realized our delta value for the time was outweighing our positive rewards for items collected.
+
+
 This graph shows the agent learning to just build a wooden pickaxe in the default world:
 
 
