@@ -23,6 +23,7 @@ Our PPO psuedocode looks like this following:
 The PPO structure limits a lot of randomness that are involved in other machine learning algorithms, and for our purposes we wanted a stable learning algorithm. This is especially applicable to when we try to craft more complicated items that require chaining many actions together.  
 
 Our reward system looks like the following table (explanation in evaluation):  
+
 | Reward | Item collected |
 | -------- | ------------- |
 | +1 | log |
